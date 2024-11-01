@@ -1,0 +1,20 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  #note-form, #filter {
+    margin-bottom: 20px;
+  }
+  #notes-list {
+    display: flex;
+    flex-direction: column;
+  }
+  .note {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+  }
+  .critica {
+    background-color: #ffcccc;
+  }
+  

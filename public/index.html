@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Gestor de Notas</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Gestor de Notas</h1>
+  <div id="note-form">
+    <select id="type">
+      <option value="normal">Normal</option>
+      <option value="critica">Crítica</option>
+    </select>
+    <textarea id="content" placeholder="Escribe tu nota aquí..."></textarea>
+    <button id="add-note">Añadir Nota</button>
+  </div>
+  <div id="filter">
+    <input type="month" id="month-filter">
+    <button id="filter-notes">Filtrar Notas</button>
+  </div>
+  <div id="notes-list"></div>
+  <script type="module" src="index.js"></script>
+</body>
+</html>
